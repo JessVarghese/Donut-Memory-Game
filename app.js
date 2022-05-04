@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       var card = document.createElement("img");
-      card.setAttribute("src", "images/blank.png");
+      card.setAttribute("src", "images/gameon.png");
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
       grid.appendChild(card);
@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute("src", "images/blank.png");
-      cards[optionTwoId].setAttribute("src", "images/blank.png");
+      cards[optionOneId].setAttribute("src", "images/gameon.png");
+      cards[optionTwoId].setAttribute("src", "images/gameon.png");
       alert("You have clicked the same image!");
     } else if (cardsChosen[0] === cardsChosen[1]) {
       alert("you found a match");
@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
       cards[optionTwoId].removeEventListener("click", flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute("src", 'images/blank.png');
-      cards[optionTwoId].setAttribute("src", 'images/blank.png');
+      cards[optionOneId].setAttribute("src", 'images/gameon.png');
+      cards[optionTwoId].setAttribute("src", 'images/gameon.png');
       alert("Sorry, try again");
     }
     cardsChosen = [];
