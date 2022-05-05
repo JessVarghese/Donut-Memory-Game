@@ -13,7 +13,7 @@
 
   * [Visuals](#visuals)
   * [Technologies](#technologies)
-  * [Credit](#Credit)
+  * [Credit](#credit)
   * [Questions](#questions)
  
 

@@ -82,8 +82,8 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("You have clicked the same image!");
     } else if (cardsChosen[0] === cardsChosen[1]) {
       alert("you found a match");
-      cards[optionOneId].setAttribute("src", "images/white.png");
-      cards[optionTwoId].setAttribute("src", 'images/white.png');
+      cards[optionOneId].setAttribute("src", "images/purple.png");
+      cards[optionTwoId].setAttribute("src", 'images/purple.png');
       cards[optionOneId].removeEventListener("click", flipCard);
       cards[optionTwoId].removeEventListener("click", flipCard);
       cardsWon.push(cardsChosen);
