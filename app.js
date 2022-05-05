@@ -2,52 +2,52 @@ document.addEventListener("DOMContentLoaded", () => {
   //card options
   const cardArray = [
     {
-        name: 'fries',
-        img: 'images/fries.png'
+        name: 'strawberry sprinkle',
+        img: 'images/strawberry_sprinkle.png'
       },
       {
-        name: 'cheeseburger',
-        img: 'images/cheeseburger.png'
+        name: 'chocolate lemon sprinkle',
+        img: 'images/choc_lem_sprinkle.png'
       },
       {
-        name: 'ice-cream',
-        img: 'images/ice-cream.png'
+        name: 'chocolate mint',
+        img: 'images/choc_mint.png'
       },
       {
-        name: 'pizza',
-        img: 'images/pizza.png'
+        name: 'coffee',
+        img: 'images/coffee.png'
       },
       {
-        name: 'milkshake',
-        img: 'images/milkshake.png'
+        name: 'vanilla sprinkle',
+        img: 'images/vanilla_sprinkle.png'
       },
       {
-        name: 'hotdog',
-        img: 'images/hotdog.png'
+        name: 'raspberry sprinkle',
+        img: 'images/rasp_sprinkle.png'
       },
       {
-        name: 'fries',
-        img: 'images/fries.png'
+        name: 'strawberry sprinkle',
+        img: 'images/strawberry_sprinkle.png'
       },
       {
-        name: 'cheeseburger',
-        img: 'images/cheeseburger.png'
+        name: 'chocolate lemon sprinkle',
+        img: 'images/choc_lem_sprinkle.png'
       },
       {
-        name: 'ice-cream',
-        img: 'images/ice-cream.png'
+        name: 'chocolate mint',
+        img: 'images/choc_mint.png'
       },
       {
-        name: 'pizza',
-        img: 'images/pizza.png'
+        name: 'coffee',
+        img: 'images/coffee.png'
       },
       {
-        name: 'milkshake',
-        img: 'images/milkshake.png'
+        name: 'vanilla sprinkle',
+        img: 'images/vanilla_sprinkle.png'
       },
       {
-        name: 'hotdog',
-        img: 'images/hotdog.png'
+        name: 'raspberry sprinkle',
+        img: 'images/rasp_sprinkle.png'
       }
     ]
 
